@@ -1,0 +1,80 @@
+html {
+
+    height: 100%;
+
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+    width: 50%;
+}
+ 
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.header {
+    min-height: 10%;
+    width: 100%;
+
+    background-color: #101010;
+}
+
+.inner-header{
+    min-width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-container {
+    width: 50%;
+    height: 100%;
+    padding: 1% 0 1% 5%;
+
+}
+
+.logo-container > * {
+    color: white;
+}
+
+.content{
+    padding: 2% 15% 2% 15%;
+    max-width: 100%;
+
+}
+
+.content__item__icon {
+    height: 100px;
+}
+
+.content__item img{
+   max-width: 50%;
+   max-height: 300px;
+
+}
+
